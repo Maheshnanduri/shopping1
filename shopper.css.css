@@ -1,0 +1,648 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .brand-top {
+    background-color: gainsboro;
+    color: grey;
+    padding: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   }
+   .brand-top-title {
+    font-size: 15px;
+    margin-left:50px;
+   }
+   .brand-dropdown {
+    align-items: center;
+    justify-content: center;
+    font-family: Helvetica;
+    font-size: 15px;
+   }
+   .brand-top-icons {
+    font-size: 20px;
+    margin-right:50px;
+   }
+   .brand-top-icons span {
+    margin-right: 20px;
+   }
+    header {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     text-align: center;
+     margin-right: 50px;
+     height: 70px;
+   }
+   .brand-title {
+    font-family: -apple-sytem;
+       font-size: 25px;
+       font-weight: bold;
+       margin-left:50px;
+   }
+   .brand-menu {
+      font-family: -apple-sytem;
+       font-size: 20px;
+       cursor: pointer;
+   }
+   .brand-menu span {
+       margin-right: 20px;
+   }
+   .brand-icons {
+       font-size: 20px;
+       cursor: pointer;
+   }
+   .brand-icons span {
+      margin-right: 20px;
+   }
+   .cart-count {
+       background-color: orange;
+       color:black;
+       padding: 4px;
+       border-radius: 30px;
+       font-weight: bold;
+       position: absolute;
+       left: 1260px;
+       width: 15px;
+       height: 15px;
+       font-size: 10px;
+   }
+   .brand-offer {
+    background-color: black;
+    color:white;
+    padding: 5px;
+    text-align: center;
+   }
+   .brand-nav {
+    margin-top: 10px;
+    height: 450px;
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+   }
+   .women {
+    background-image: url("../../public/images/women\ shopping.jpg");
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    opacity: 0.7;
+   }
+   .women:hover {
+       opacity: 1;
+   }
+   .men {
+       background-image: url("../../public/images/men.jpg");
+       background-size: cover;
+       text-align: center;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-evenly;
+       opacity: 0.7;
+   }
+   .men:hover {
+       opacity: 1;
+   }
+   .kids {
+       background-image: url("../../public/images/kidds\ shopping.jpg");
+       background-size: cover;
+       text-align: center;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-evenly;
+       opacity: 0.7;
+   }
+   .kids:hover {
+       opacity: 1;
+   }
+   .banner-title {
+       font-size: 40px;
+       font-weight: bold;
+       color:white;
+       text-shadow: 2px 2px 2px black;
+   }
+   .women button {
+    width: 200px;
+    height: 45px;
+    background: rgb(26, 23, 23);
+    color: aliceblue;
+}
+.women button:hover{
+    color: rgb(51, 51, 46);
+    background: transparent;
+    transform: translateX(0px);
+    transition: 2s;
+   }
+   .women button:hover{
+    margin-left: 20px;
+    transition: 2s;
+   }
+   .men button {
+       width: 200px;
+       height: 45px;
+       background: rgb(26, 23, 23);
+       color: aliceblue;
+       transform: translateX(0px);
+       transition: 2s;
+   }
+   .men button:hover{
+    color: rgb(51, 51, 46);
+    background: transparent;
+   }
+   .men button:hover{
+    margin-left: 20px;
+    transition: 2s;
+   }
+   .kids button {
+       width: 200px;
+       height: 45px;
+       background: rgb(26, 23, 23);
+       color: aliceblue;
+       transform: translateX(0px);
+       transition: 2s;
+   }
+   .kids button:hover{
+    color: rgb(51, 51, 46);
+    background: transparent;
+   }
+   .kids button:hover{
+    margin-left: 20px;
+    transition: 2s;
+   }
+   .sub-menu2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+    padding: 15px;
+}
+.sub-menu3{
+    text-align: center;
+    padding: 25px;
+    margin-top: 50px;
+}
+.sub-sub2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.sub-sub1{
+    color:gray;
+    font-size: 13px;
+    font-weight: bold;
+}
+.sub-sub3{
+    color: gray;
+}
+.sub-menu4{
+    margin:35px 35px;
+    margin-left: 100px;
+}
+.sub-menu4 ul{
+    display: flex;
+    list-style: none;
+}
+.menu41{
+    background-image: url(../../public/images/college-bags-for-girls-india.webp);
+    background-size: cover;
+    background-position: center;
+    width: 30%;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    top: 80px;
+    color: rgb(240, 240, 240);
+    box-shadow: 3px 3px 3px gray;
+}
+.menua{
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px gray;
+}
+.menub:hover{
+   color:rgb(241, 15, 15);
+   cursor: pointer;
+}
+.menu42{
+    width: 3%;
+    height: 400px;
+}
+.menu43{
+    width: 60%;
+    height: 400px;
+    background-image: url(../../public/images/m-1697-shirt-bmcart-original-imagh5zdbnkad2hm.webp);
+    background-position: right;
+    background-size: cover;
+    color: rgb(245, 245, 244);
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+    box-shadow: 3px 3px 3px gray;
+}
+.menuc{
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px gray ;
+    left: 90px;
+}
+.menud:hover{
+    color:rgb(241, 15, 15);
+    cursor: pointer;
+ }
+.menu44{
+    width: 60%;
+    height: 500px;
+    background-image: url(../../public/images/na-l-short-sleeve-stitched-pratik-wine-l-vihancreation-na-original-imaggmfrcgegcpyf.webp);
+    background-position: right;
+    background-size: cover;
+    color: rgb(245, 245, 244);
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+    box-shadow: 3px 3px 3px gray;
+
+}
+.menu45{
+    width: 3%;
+    height: 400px;
+
+}
+.menu46{
+    background-image: url(../..//public/images/l-swtsrt-sgrn-p1-three-spot-original-imagg3kkbab6fwxj.webp);
+    background-size: cover;
+    background-position: center;
+    width: 30%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: whitesmoke;
+    box-shadow: 3px 4px 4px gray;
+}
+.menu-bar4{
+    align-items: center;
+    text-align: center;
+    margin: 50px;
+}
+.menue{
+    font-size: 40px;
+    font-weight: bold;
+}
+.menuf span{
+    font-weight: bold;
+    padding:20px;
+}
+.menuf{
+    margin: 30px;
+}
+.menuf span:hover ,.active{
+    color: red;
+}
+.menu-bar5{
+    display: flex;
+    justify-content:space-between;
+    margin: 35px;;
+}
+.main-bar5{
+    height: 500px;
+    width: 20%;
+}
+.sub-bar5-1{
+    background-image: url(../../public/images/sandals.webp);
+    background-size: cover;
+    background-position: center;
+    height: 60%;
+}
+.sub-bar5-2{
+    background-image: url(../../public/images/l-1402-sheetal-associates-original-imag8fuzhqwrz2fr-bb.webp);
+    background-size: cover;
+    background-position: center;
+    height: 60%;
+    position: relative;
+}
+.sub-bar5-3{
+    background-image: url(../../public/images/shoe.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 60%;
+}
+.sub-bar5-4{
+    background-image: url(../../public/images/girl.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 60%;
+}
+.sub-bar5-1:hover{
+    background-image: url(../../public/images/slippers.webp);
+    background-size: cover;
+    background-position: center;
+    height: 60%;
+    cursor: pointer;
+}
+.sub-bar5-2:hover{
+    background-image: url(../../public/images/girl.png);
+    background-size: cover;
+    background-position: center;
+    height: 60%;
+    cursor: pointer;
+}
+.sub-bar5-3:hover{
+    background-image: url(../../public/images/7-kk-2022white-groofer-white-original-imaggchfhhcq3mnv.webp);
+    background-size: cover;
+    background-position: center;
+    height: 60%;
+    cursor: pointer;
+}
+.sub-bar5-4:hover{
+    background-image: url(../../public/images/product-16.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 60%;
+    cursor: pointer;
+}
+.menu-bar6{
+    display: flex;
+    justify-content:space-between;
+    margin-top: -150px;
+    margin-right: 35px;
+    margin-left: 35px;
+}
+.sub-bar5-5{
+    background-image: url(../../public/images/belt\ slippers.webp);
+    background-size: cover;
+    background-position: center;
+    height: 60%;
+   
+}
+.sub-bar5-6{
+    background-image: url(../../public/images/product-16.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 60%;
+}
+.sub-bar5-7{
+    background-image: url(../../public/images/slippers.webp);
+    background-size: cover;
+    background-position: center;
+    height: 60%;
+}
+.sub-bar5-8{
+    background-image: url(../../public/images/girl.png);
+    background-size: cover;
+    background-position: center;
+    height: 60%;
+}
+.sub-bar5-5:hover{
+    background-image: url(../../public/images/7-kk-2022white-groofer-white-original-imaggchfhhcq3mnv.webp);
+    background-size: cover;
+    background-position: center;
+    height: 60%;
+    cursor: pointer;
+}
+.sub-bar5-6:hover{
+    background-image: url(../../public/images/na-l-short-sleeve-stitched-pratik-wine-l-vihancreation-na-original-imaggmfrcgegcpyf.webp);
+    background-size: cover;
+    background-position: center;
+    height: 60%;
+    cursor: pointer;
+}
+.sub-bar5-7:hover{
+    background-image: url(../../public/images/lady\ slippers.webp);
+    background-size: cover;
+    background-position: center;
+    height: 60%;
+    cursor: pointer;
+}
+.sub-bar5-8:hover{
+    background-image: url(../../public/images/girl.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 60%;
+    cursor: pointer;
+}
+
+.menu-bar7 { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -80px;
+    position: relative;
+    padding: 10px;
+    color: rgb(8, 20, 120);
+}
+    
+.line{
+    width: 120px;
+    height: 0.5px;
+    background-color: rgb(244, 6, 93);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px -30px -111px;
+    display: none;
+    transition: 5s ;
+    
+    
+}
+.menu-bar7:hover .line{
+    display: block;
+    transition: 5s ;
+    
+}
+.menu-bar8{
+    width: 100%;
+    height: 650px;
+    padding: 20px;
+    margin: 40px 0px;
+    background-image: url(../../public/images/heels.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.menu-bar8a{
+    float: right;
+    color: rgb(255, 243, 246);
+    margin-top: 50px;
+   margin-right: 50px;
+}
+
+.menu-bar9{
+    text-align: center;
+    margin: 50px;
+}
+.menu-bar9 h6{
+    color: gray;
+}
+.menu-bar10a{
+    border: 1px solid black;
+    width: 27%;
+    height: 400px;
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+   
+}
+.card1a{
+   display: flex;
+   justify-content: space-evenly;
+}
+.card1a img{
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.card1a div{
+    margin-left: 20px;
+}
+
+.menu-bar10{
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;  
+}
+.carda p{
+    margin-top: 30px;
+    color: gray;
+}
+.shopper_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0;
+    gap:20px 0;
+  }
+  .shopper_section.h3{
+    font-family: Tahoma;
+    font-weight: bold;
+  }
+  .insta_imgs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  .insta_imgs>img{
+    width:170px;
+    height:170px;
+    object-fit: cover;
+  }
+  .insta_imgs>img:hover{
+    filter: brightness(0.5);
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+  }
+  .pic img{
+    width: 100%;
+    height: 100px;
+}
+.footer_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0;
+    gap: 20px;
+    height: 650px;
+    width: 1365px;
+    background-color: #1f1f1f;
+  }
+  .email_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .email_section .title{
+    font-size: 24px;
+    line-height: 29px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    color: #fff;
+  }
+  .footer_section>footer>.footer_menu{
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    justify-content: space-between;
+    gap: 100px;
+  }
+  .menu_col{
+    display: flex;
+    flex-direction: column;
+  }
+  .logo_col>.logo{
+    font-size: 28px;
+    line-height: 34px;
+    font-weight: 500;
+    color: #fff;
+    font-family: 'Jost', sans-serif;
+    padding-bottom: 20px;
+  }
+  .social-media-footer{
+    color: #a6a6a6;
+  }
+  .menu_col>.menu_title{
+    font-size: 14px;
+    line-height: 16px;
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Jost', sans-serif;
+    padding-bottom: 10px;
+  }
+  .menu_col a{
+    font-size: 16px ;
+    font-weight: 400 ;
+    line-height: 24px ;
+    color: #a6a6a6 ;
+    font-family: 'Jost', sans-serif ;
+    text-decoration: none;
+    padding-bottom: 5px;
+  }
+  .menu_col a:hover{
+    color: #fff;
+  }
+  .newsletter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+  }
+  .newsletter>input{
+    padding: 25px 170px 25px 30px ;
+    margin-right: 20px;
+    background: #303030;
+    border: none;
+    border-radius: 0px;
+    caret-color: #fff;
+  }
+  .newsletter>input:focus{
+    border:none;
+    outline: none;
+  }
+  .newsletter input::placeholder{
+    color: gray;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Jost', sans-serif;
+  }
+  .newsletter>button{
+    padding: 20px 30px;
+    border: none;
+    background: #525252;
+    color: #fff;
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .newsletter>button:hover{
+    background: #414141;
+    cursor: pointer;
+  }
