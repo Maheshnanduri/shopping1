@@ -83,7 +83,7 @@
     grid-template-columns: 4fr 4fr 4fr;
    }
    .women {
-    background-image: url("/women\ shopping.jpg");
+    background-image: url("women\ shopping.jpg");
     background-size: cover;
     text-align: center;
     display: flex;
@@ -95,7 +95,7 @@
        opacity: 1;
    }
    .men {
-       background-image: url("/men\ shopping.jpg");
+       background-image: url("men\ shopping.jpg");
        background-size: cover;
        text-align: center;
        display: flex;
@@ -107,7 +107,7 @@
        opacity: 1;
    }
    .kids {
-       background-image: url("/kidds\ shopping.jpg ");
+       background-image: url("kidds\ shopping.jpg ");
        background-size: cover;
        text-align: center;
        display: flex;
@@ -204,7 +204,7 @@
     list-style: none;
 }
 .menu41{
-    background-image: url(/college-bags-for-girls-india.webp);
+    background-image: url(college-bags-for-girls-india.webp);
     background-size: cover;
     background-position: center;
     width: 30%;
@@ -234,7 +234,7 @@
 .menu43{
     width: 60%;
     height: 400px;
-    background-image: url(/m-1697-shirt-bmcart-original-imagh5zdbnkad2hm.webp);
+    background-image: url(m-1697-shirt-bmcart-original-imagh5zdbnkad2hm.webp);
     background-position: right;
     background-size: cover;
     color: rgb(245, 245, 244);
@@ -257,7 +257,7 @@
 .menu44{
     width: 60%;
     height: 500px;
-    background-image: url(/na-l-short-sleeve-stitched-pratik-wine-l-vihancreation-na-original-imaggmfrcgegcpyf.webp);
+    background-image: url(na-l-short-sleeve-stitched-pratik-wine-l-vihancreation-na-original-imaggmfrcgegcpyf.webp);
     background-position: right;
     background-size: cover;
     color: rgb(245, 245, 244);
@@ -274,7 +274,7 @@
 
 }
 .menu46{
-    background-image: url(/l-swtsrt-sgrn-p1-three-spot-original-imagg3kkbab6fwxj.webp);
+    background-image: url(l-swtsrt-sgrn-p1-three-spot-original-imagg3kkbab6fwxj.webp);
     background-size: cover;
     background-position: center;
     width: 30%;
@@ -315,32 +315,32 @@
     width: 20%;
 }
 .sub-bar5-1{
-    background-image: url(/sandals.webp);
+    background-image: url(sandals.webp);
     background-size: cover;
     background-position: center;
     height: 60%;
 }
 .sub-bar5-2{
-    background-image: url(/l-1402-sheetal-associates-original-imag8fuzhqwrz2fr-bb.webp);
+    background-image: url(l-1402-sheetal-associates-original-imag8fuzhqwrz2fr-bb.webp);
     background-size: cover;
     background-position: center;
     height: 60%;
     position: relative;
 }
 .sub-bar5-3{
-    background-image: url(/shoe.jpg);
+    background-image: url(shoe.jpg);
     background-size: cover;
     background-position: center;
     height: 60%;
 }
 .sub-bar5-4{
-    background-image: url(/girl.jpg);
+    background-image: url(girl.jpg);
     background-size: cover;
     background-position: center;
     height: 60%;
 }
 .sub-bar5-1:hover{
-    background-image: url(/slippers.webp);
+    background-image: url(slippers.webp);
     background-size: cover;
     background-position: center;
     height: 60%;
@@ -354,7 +354,7 @@
     cursor: pointer;
 }
 .sub-bar5-3:hover{
-    background-image: url(/7-kk-2022white-groofer-white-original-imaggchfhhcq3mnv.webp);
+    background-image: url(7-kk-2022white-groofer-white-original-imaggchfhhcq3mnv.webp);
     background-size: cover;
     background-position: center;
     height: 60%;
@@ -375,14 +375,14 @@
     margin-left: 35px;
 }
 .sub-bar5-5{
-    background-image: url(/belt\ slippers.webp);
+    background-image: url(belt\ slippers.webp);
     background-size: cover;
     background-position: center;
     height: 60%;
    
 }
 .sub-bar5-6{
-    background-image: url(/product-16.jpg);
+    background-image: url(product-16.jpg);
     background-size: cover;
     background-position: center;
     height: 60%;
@@ -394,34 +394,34 @@
     height: 60%;
 }
 .sub-bar5-8{
-    background-image: url(/girl.png);
+    background-image: url(girl.png);
     background-size: cover;
     background-position: center;
     height: 60%;
 }
 .sub-bar5-5:hover{
-    background-image: url(/7-kk-2022white-groofer-white-original-imaggchfhhcq3mnv.webp);
+    background-image: url(7-kk-2022white-groofer-white-original-imaggchfhhcq3mnv.webp);
     background-size: cover;
     background-position: center;
     height: 60%;
     cursor: pointer;
 }
 .sub-bar5-6:hover{
-    background-image: url(/na-l-short-sleeve-stitched-pratik-wine-l-vihancreation-na-original-imaggmfrcgegcpyf.webp);
+    background-image: url(na-l-short-sleeve-stitched-pratik-wine-l-vihancreation-na-original-imaggmfrcgegcpyf.webp);
     background-size: cover;
     background-position: center;
     height: 60%;
     cursor: pointer;
 }
 .sub-bar5-7:hover{
-    background-image: url(/lady\ slippers.webp);
+    background-image: url(lady\ slippers.webp);
     background-size: cover;
     background-position: center;
     height: 60%;
     cursor: pointer;
 }
 .sub-bar5-8:hover{
-    background-image: url(/girl.jpg);
+    background-image: url(girl.jpg);
     background-size: cover;
     background-position: center;
     height: 60%;
